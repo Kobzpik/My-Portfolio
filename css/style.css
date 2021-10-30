@@ -51,7 +51,7 @@ header nav.navbar .navbar-nav .nav-item.active .nav-link {
 }
 
 #socila li:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 
@@ -139,12 +139,12 @@ header .header-content .col-8 .social-media ul li {
 header .header-content .col-8 .social-media ul li a {
     color: #FFF;
     border: 1px solid;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: relative;
     border-radius: 50%;
     display: block;
-    font-size: 1.3rem;
+    font-size: 2rem;
     transition: .3s;
 }
 
@@ -294,10 +294,15 @@ header .header-content .col-8 .social-media ul li a i {
 
 /*about expericen*/
 
+.experience {
+    align-items: center;
+}
+
 #item-grid {
     max-width: 80%;
     max-height: 60%;
     margin-bottom: 15px;
+    margin-left: 50px;
     padding-left: 20px;
     padding-top: 10px;
     box-shadow: 5px 5px 10px #00b100;
@@ -346,7 +351,7 @@ header .header-content .col-8 .social-media ul li a i {
 
 #item-Sgrid {
     max-width: 100%;
-    max-height: 150%;
+    max-height: 250%;
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
@@ -370,7 +375,7 @@ header .header-content .col-8 .social-media ul li a i {
     font-weight: 600;
 }
 
-#item-Sgrid i {
+#item-Sgrid #icone1 {
     font-size: 3rem;
     color: rgb(57, 224, 42);
     text-align: center;
@@ -382,6 +387,22 @@ header .header-content .col-8 .social-media ul li a i {
 
 #item-Sgrid i:hover {
     transform: scale(1.5);
+}
+
+#lists {
+    list-style: none;
+    padding: 0;
+}
+
+#lists {
+    padding-bottom: 10px;
+}
+
+#lists {
+    font-size: 15px;
+    text-align: left;
+    padding-right: 2px;
+    color: #ececec;
 }
 
 
@@ -408,11 +429,19 @@ header .header-content .col-8 .social-media ul li a i {
 .testimonials .testimonials-grid {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 8px;
-    width: 340px;
+    width: 450px;
+    max-width: 250%;
     max-height: 150%;
-    margin: 15px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     padding: 15px;
     box-shadow: 3px 3px 5px #181818;
+}
+
+@media (max-width:325px) {
+    #slide_img {
+        height: 100px;
+    }
 }
 
 .testimonials .testimonials-grid img {
@@ -524,12 +553,12 @@ header .header-content .col-8 .social-media ul li a i {
 .contact .infor-box .social-media ul li a {
     color: rgb(247, 248, 246);
     border: 1px solid;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: relative;
     border-radius: 100%;
     display: block;
-    font-size: 1rem;
+    font-size: 1.3rem;
     transition: .3s;
 }
 
