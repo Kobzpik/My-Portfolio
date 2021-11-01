@@ -429,13 +429,55 @@ header .header-content .col-8 .social-media ul li a i {
 .testimonials .testimonials-grid {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 8px;
-    width: 450px;
+   width: 550px;
     max-width: 250%;
     max-height: 150%;
     margin-bottom: 40px;
     margin-top: 40px;
     padding: 15px;
     box-shadow: 3px 3px 5px #181818;
+}
+
+@media(min-width:840px){
+    .d-flex{
+        width: 850px;
+    }
+}
+@media(min-width:708px)and (max-width:768px){
+    .d-flex .justify-content-sm-center{
+        width: 380px;
+    }
+}
+
+@media(min-width:769px)and (max-width:882px){
+    .d-flex {
+        width: 350px;
+    }
+}
+@media(min-width:882px)and (max-width:1000px){
+    .d-flex {
+        width: 250px;
+    }
+}
+@media(min-width:1000px)and (max-width:1140px){
+    .d-flex {
+        width: 300px;
+    }
+}
+@media(min-width:1140px)and (max-width:1300px){
+    .d-flex {
+        width: 350px;
+    }
+}
+@media(min-width:1300px)and (max-width:1550px){
+    .d-flex {
+        width: 420px;
+    }
+}
+@media(min-width:1550px)and (max-width:1750px){
+    .d-flex {
+        width: 480px;
+    }
 }
 
 @media (max-width:325px) {
